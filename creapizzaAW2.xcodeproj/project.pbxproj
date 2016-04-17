@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110C244E1CBED51C00BF948F /* pasaingre2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C244D1CBED51C00BF948F /* pasaingre2.swift */; };
+		1144AD9B1CB3359700CA4A72 /* ingredientes1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1144AD9A1CB3359700CA4A72 /* ingredientes1.swift */; };
+		11695E3F1CB2CD8E004EE0A6 /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11695E3E1CB2CD8E004EE0A6 /* VistaQueso.swift */; };
+		11695E411CB2CF3E004EE0A6 /* pasaqueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11695E401CB2CF3E004EE0A6 /* pasaqueso.swift */; };
 		11A371A01CAEFFF5007E0493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3719F1CAEFFF5007E0493 /* AppDelegate.swift */; };
 		11A371A21CAEFFF5007E0493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A371A11CAEFFF5007E0493 /* ViewController.swift */; };
 		11A371A51CAEFFF5007E0493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A371A31CAEFFF5007E0493 /* Main.storyboard */; };
@@ -19,6 +23,12 @@
 		11A371C31CAEFFF5007E0493 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A371C21CAEFFF5007E0493 /* InterfaceController.swift */; };
 		11A371C51CAEFFF5007E0493 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A371C41CAEFFF5007E0493 /* ExtensionDelegate.swift */; };
 		11A371C71CAEFFF5007E0493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A371C61CAEFFF5007E0493 /* Assets.xcassets */; };
+		11A371D71CAF1ACA007E0493 /* VistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A371D61CAF1ACA007E0493 /* VistaMasa.swift */; };
+		11A371D91CAF21CD007E0493 /* pasamasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A371D81CAF21CD007E0493 /* pasamasa.swift */; };
+		11CB53FE1CC0027200A31987 /* confirma1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CB53FD1CC0027200A31987 /* confirma1.swift */; };
+		11D6C2341CB43B96007611FA /* pasaingre1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6C2331CB43B96007611FA /* pasaingre1.swift */; };
+		11D6C2361CB483AF007611FA /* ingredientes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6C2351CB483AF007611FA /* ingredientes2.swift */; };
+		11DBE0461CC2CF7F00EE0DBA /* pconfirma1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBE0451CC2CF7F00EE0DBA /* pconfirma1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +74,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		110C244D1CBED51C00BF948F /* pasaingre2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pasaingre2.swift; sourceTree = "<group>"; };
+		1144AD9A1CB3359700CA4A72 /* ingredientes1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredientes1.swift; sourceTree = "<group>"; };
+		11695E3E1CB2CD8E004EE0A6 /* VistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		11695E401CB2CF3E004EE0A6 /* pasaqueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pasaqueso.swift; sourceTree = "<group>"; };
 		11A3719C1CAEFFF5007E0493 /* creapizzaAW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = creapizzaAW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A3719F1CAEFFF5007E0493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11A371A11CAEFFF5007E0493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +94,12 @@
 		11A371C41CAEFFF5007E0493 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		11A371C61CAEFFF5007E0493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A371C81CAEFFF5007E0493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A371D61CAF1ACA007E0493 /* VistaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMasa.swift; sourceTree = "<group>"; };
+		11A371D81CAF21CD007E0493 /* pasamasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pasamasa.swift; sourceTree = "<group>"; };
+		11CB53FD1CC0027200A31987 /* confirma1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirma1.swift; sourceTree = "<group>"; };
+		11D6C2331CB43B96007611FA /* pasaingre1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pasaingre1.swift; sourceTree = "<group>"; };
+		11D6C2351CB483AF007611FA /* ingredientes2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredientes2.swift; sourceTree = "<group>"; };
+		11DBE0451CC2CF7F00EE0DBA /* pconfirma1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pconfirma1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +157,18 @@
 			isa = PBXGroup;
 			children = (
 				11A371B31CAEFFF5007E0493 /* Interface.storyboard */,
+				110C244D1CBED51C00BF948F /* pasaingre2.swift */,
+				11D6C2351CB483AF007611FA /* ingredientes2.swift */,
+				11A371D81CAF21CD007E0493 /* pasamasa.swift */,
+				11A371D61CAF1ACA007E0493 /* VistaMasa.swift */,
 				11A371B61CAEFFF5007E0493 /* Assets.xcassets */,
 				11A371B81CAEFFF5007E0493 /* Info.plist */,
+				11695E3E1CB2CD8E004EE0A6 /* VistaQueso.swift */,
+				11695E401CB2CF3E004EE0A6 /* pasaqueso.swift */,
+				1144AD9A1CB3359700CA4A72 /* ingredientes1.swift */,
+				11D6C2331CB43B96007611FA /* pasaingre1.swift */,
+				11CB53FD1CC0027200A31987 /* confirma1.swift */,
+				11DBE0451CC2CF7F00EE0DBA /* pconfirma1.swift */,
 			);
 			path = "creapizzaAW2 WatchKit App";
 			sourceTree = "<group>";
@@ -295,8 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11695E411CB2CF3E004EE0A6 /* pasaqueso.swift in Sources */,
+				11A371D91CAF21CD007E0493 /* pasamasa.swift in Sources */,
+				11695E3F1CB2CD8E004EE0A6 /* VistaQueso.swift in Sources */,
 				11A371C51CAEFFF5007E0493 /* ExtensionDelegate.swift in Sources */,
+				11A371D71CAF1ACA007E0493 /* VistaMasa.swift in Sources */,
+				110C244E1CBED51C00BF948F /* pasaingre2.swift in Sources */,
 				11A371C31CAEFFF5007E0493 /* InterfaceController.swift in Sources */,
+				11D6C2341CB43B96007611FA /* pasaingre1.swift in Sources */,
+				1144AD9B1CB3359700CA4A72 /* ingredientes1.swift in Sources */,
+				11D6C2361CB483AF007611FA /* ingredientes2.swift in Sources */,
+				11CB53FE1CC0027200A31987 /* confirma1.swift in Sources */,
+				11DBE0461CC2CF7F00EE0DBA /* pconfirma1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +567,7 @@
 				11A371CD1CAEFFF5007E0493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11A371CF1CAEFFF5007E0493 /* Build configuration list for PBXNativeTarget "creapizzaAW2 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +576,7 @@
 				11A371D11CAEFFF5007E0493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11A371D31CAEFFF5007E0493 /* Build configuration list for PBXNativeTarget "creapizzaAW2" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +585,7 @@
 				11A371D51CAEFFF5007E0493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

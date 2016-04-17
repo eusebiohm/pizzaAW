@@ -11,8 +11,33 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
-    override func awakeWithContext(context: AnyObject?) {
+    var tamano:String = ""
+    var sw1:Int = 0
+    
+    @IBAction func chica(value: Bool) {
+        tamano = "Chica"
+        sw1 = sw1 + 1
+        print(tamano)
+        print(sw1)
+        
+    }
+    
+    @IBAction func mediana(value: Bool) {
+        tamano = "Median"
+        sw1 = sw1 + 1
+        print(tamano)
+        print(sw1)
+       
+    }
+    
+    @IBAction func grande(value: Bool) {
+        tamano = "Grande"
+        sw1 = sw1 + 1
+        print(tamano)
+        print(sw1)
+        
+    }
+       override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
@@ -28,4 +53,22 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
-}
+    @IBAction func tipomasa() {
+        if (sw1 == 0) || (sw1 > 1 ){
+            sw1 = 0
+                       
+            
+            print ("selecciona solamente 1")
+          
+          tamano = "error tamaño"}
+        
+        let valorcontexto = pasamasa(t:tamano, s0:sw1)
+            print("va a masa")
+            print(tamano)
+            print(sw1)
+            pushControllerWithName("VistaMasa", context: valorcontexto)
+        }
+        
+        }
+
+

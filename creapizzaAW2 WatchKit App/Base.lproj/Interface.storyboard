@@ -1,15 +1,203 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="14F1713" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="creapizzaAW2_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="Sel 1 Opcion" textAlignment="center" id="1no-q5-59N"/>
+                        <switch width="1" alignment="left" title="Chica" id="k9i-1q-gAl">
+                            <connections>
+                                <action selector="chica:" destination="AgC-eL-Hgc" id="b5Y-jt-YQz"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="Mediana" id="s5z-Ts-e2L">
+                            <connections>
+                                <action selector="mediana:" destination="AgC-eL-Hgc" id="xBk-cZ-7Y3"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="Grande" id="dua-hY-trr">
+                            <connections>
+                                <action selector="grande:" destination="AgC-eL-Hgc" id="BN9-e6-wss"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" title="Seleccion Masa" id="LR4-sZ-wXO">
+                            <connections>
+                                <action selector="tipomasa" destination="AgC-eL-Hgc" id="PKL-0H-Dab"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="346" y="282.25"/>
+        </scene>
+        <!--VistaMasa-->
+        <scene sceneID="PXi-Ja-M3f">
+            <objects>
+                <controller identifier="VistaMasa" id="tGe-Ln-FxJ" customClass="VistaMasa" customModule="creapizzaAW2_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Sel 1 opcion" textAlignment="center" id="6RO-4o-TeI"/>
+                        <switch width="1" alignment="left" title="Delgada" id="ivW-zv-U8P">
+                            <connections>
+                                <action selector="delgada:" destination="tGe-Ln-FxJ" id="Pvx-BV-3HL"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="Crujiente" id="I1d-sn-8A3">
+                            <connections>
+                                <action selector="crujiente:" destination="tGe-Ln-FxJ" id="3Ye-aI-nx5"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" title="Gruesa" id="RIP-CT-D9T">
+                            <connections>
+                                <action selector="gruesa:" destination="tGe-Ln-FxJ" id="1IC-BZ-3Gd"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" title="Seleccion Queso" id="Iep-MT-LsY">
+                            <connections>
+                                <action selector="selqueso" destination="tGe-Ln-FxJ" id="oCz-BB-grw"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="487" y="275.25"/>
+        </scene>
+        <!--VistaQueso-->
+        <scene sceneID="QVU-WG-ZZC">
+            <objects>
+                <controller identifier="VistaQueso" id="gGe-US-Tvs" customClass="VistaQueso" customModule="creapizzaAW2_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Sel 1 opcion" textAlignment="center" id="Ypt-ud-47R"/>
+                        <switch width="1" height="25.5" alignment="left" title="Mozarela" id="7Co-q0-oMk">
+                            <connections>
+                                <action selector="mozarela:" destination="gGe-US-Tvs" id="BeR-j1-Fd5"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="19.5" alignment="left" title="Cheddar" id="aa6-Lc-KEe">
+                            <connections>
+                                <action selector="cheddar:" destination="gGe-US-Tvs" id="Mam-7f-k2y"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="24.5" alignment="left" title="Parmesan" id="Vsu-Dd-KNy">
+                            <connections>
+                                <action selector="parmesano:" destination="gGe-US-Tvs" id="Kae-gm-kWV"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="18.5" alignment="left" title="Sin Queso" id="aX7-N5-vmM">
+                            <connections>
+                                <action selector="sinqueso:" destination="gGe-US-Tvs" id="lfi-vM-gIO"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" title="Ingredientes 1" id="sAp-WN-Gug">
+                            <connections>
+                                <action selector="ingredientes1" destination="gGe-US-Tvs" id="jYV-Ox-SEU"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="635" y="282"/>
+        </scene>
+        <!--ingredientes1-->
+        <scene sceneID="uoB-ON-A5k">
+            <objects>
+                <controller identifier="ingredientes1" id="vCT-xN-W31" customClass="ingredientes1" customModule="creapizzaAW2_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Sel 1 a 5 Ingre" textAlignment="center" id="EJV-ol-tYW"/>
+                        <switch width="1" height="25.5" alignment="left" title="Jamon" id="8qJ-WG-paa">
+                            <connections>
+                                <action selector="jamon:" destination="vCT-xN-W31" id="RYC-ih-jrP"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="22.5" alignment="left" title="Peperoni" id="LvP-qg-o0x">
+                            <connections>
+                                <action selector="peperoni:" destination="vCT-xN-W31" id="xTW-7o-8OQ"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="25.5" alignment="left" title="Pavo" id="5sE-St-tlD">
+                            <connections>
+                                <action selector="pavo:" destination="vCT-xN-W31" id="f5N-Rf-Ngt"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="23.5" alignment="left" title="Salchicha" id="3CI-7I-JgK">
+                            <connections>
+                                <action selector="salchicha:" destination="vCT-xN-W31" id="V8c-dB-Iiq"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" title="Ingredientes 2" id="cDW-nv-dLF">
+                            <connections>
+                                <action selector="ingredientes2" destination="vCT-xN-W31" id="PBT-qo-JAg"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="805" y="275.5"/>
+        </scene>
+        <!--ingredientes2-->
+        <scene sceneID="bpu-5S-tTc">
+            <objects>
+                <controller identifier="ingredientes2" id="XzG-fw-XbX" customClass="ingredientes2" customModule="creapizzaAW2_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Sel 1 a 5 Ingre" textAlignment="center" id="UuJ-UN-0qT"/>
+                        <switch width="1" height="22.5" alignment="left" title="Aceituna" id="Vet-wS-lZ9">
+                            <connections>
+                                <action selector="aceituna:" destination="XzG-fw-XbX" id="kDe-d3-RNy"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="21.5" alignment="left" title="Cebolla" id="XhY-nx-7sF">
+                            <connections>
+                                <action selector="cebolla:" destination="XzG-fw-XbX" id="TcH-wc-Zqq"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="23.5" alignment="left" title="Pimiento" id="2Mu-QN-NKI">
+                            <connections>
+                                <action selector="pimiento:" destination="XzG-fw-XbX" id="JBD-yx-igh"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" height="22.5" alignment="left" title="PIña" id="Mx0-0v-q1s">
+                            <connections>
+                                <action selector="pina:" destination="XzG-fw-XbX" id="vTl-RR-BGi"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" title="confirma1" id="62a-EF-2YK">
+                            <connections>
+                                <action selector="confirma1" destination="XzG-fw-XbX" id="B1u-yA-5py"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="945" y="257"/>
+        </scene>
+        <!--confirma1-->
+        <scene sceneID="inX-Yp-Ays">
+            <objects>
+                <controller identifier="confirma1" id="doA-QU-y0e" customClass="confirma1" customModule="creapizzaAW2_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="confirmacion" textAlignment="center" id="5PS-Jc-fQ7"/>
+                        <label alignment="left" text="ltamano" id="ake-E5-1j3"/>
+                        <label alignment="left" text="Lmasa" id="T81-wp-ybk"/>
+                        <label alignment="left" text="Lqueso" id="ppG-4Q-i00"/>
+                        <label alignment="left" text="Lingre1" id="5bl-nh-PlX"/>
+                        <label alignment="left" text="Lingre2" id="W4o-9F-NCD"/>
+                        <button width="1" alignment="left" title="Button" id="L5B-6q-Qjk"/>
+                    </items>
+                    <connections>
+                        <outlet property="lingre1" destination="5bl-nh-PlX" id="IyX-dw-srv"/>
+                        <outlet property="lingre2" destination="W4o-9F-NCD" id="ATa-h0-Feo"/>
+                        <outlet property="lmasa" destination="T81-wp-ybk" id="AmD-5U-GBe"/>
+                        <outlet property="lqueso" destination="ppG-4Q-i00" id="nUs-jx-cN2"/>
+                        <outlet property="ltamano" destination="ake-E5-1j3" id="bFe-IG-Vdw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1143" y="264"/>
         </scene>
     </scenes>
 </document>
